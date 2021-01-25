@@ -18,10 +18,10 @@ class Form extends React.Component{
 
   render() {
     return (
-        <form onSubmit={this.hanldeFormSubmit}>
-            <input id="name" type="text" value={this.state.value.toUpperCase()} onChange={(event) => this.handleInputChange(event)} />
-            <input type="submit"/>
-        </form>
+      <form onSubmit={this.hanldeFormSubmit}>
+          <input id="name" type="text" value={this.state.value.toUpperCase()} onChange={(event) => this.handleInputChange(event)} />
+          <input type="submit"/>
+      </form>
     )
   }
 }
